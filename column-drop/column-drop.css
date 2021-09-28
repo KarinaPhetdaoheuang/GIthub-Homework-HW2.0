@@ -42,7 +42,17 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-    /* Add Tablet Content Here */
+    .box {
+        column-width: auto;
+        display: flex;
+        flex-flow: column wrap;
+      }
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 @media screen and (min-width: 1024px) {
